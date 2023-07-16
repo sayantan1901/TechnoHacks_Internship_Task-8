@@ -4,7 +4,7 @@ from tkinter import ttk
 from pygame import mixer
 import os
 root = Tk()
-root.title('Music player project by TechVidvan')
+root.title('Music player')
 root.geometry("920x670+290+85")
 root.configure(bg="#0f1a2b")
 root.resizable(False, False)
