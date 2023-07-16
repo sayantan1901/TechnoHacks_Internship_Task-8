@@ -51,15 +51,15 @@ Button_Play = Button_Play.subsample(7)  # Reduce the button size
 Button(root, image=Button_Play, bg="#0f1a2b", bd=0, command=Play_Music).place(x=100, y=400)
 
 Button_Stop = PhotoImage(file="C:/Users/lahas/.vscode/Python/proj_img/stop button.png")
-Button_Stop = Button_Stop.subsample(7)  # Reduce the button size
+Button_Stop = Button_Stop.subsample(7)  
 Button(root, image=Button_Stop, bg="#0f1a2b", bd=0, command=mixer.music.stop).place(x=30, y=500)
 
 Button_Resume = PhotoImage(file="C:/Users/lahas/.vscode/Python/proj_img/resume button.png")
-Button_Resume = Button_Resume.subsample(7)  # Reduce the button size
+Button_Resume = Button_Resume.subsample(7)  
 Button(root, image=Button_Resume, bg="#0f1a2b", bd=0, command=mixer.music.unpause).place(x=115, y=500)
 
 Button_Pause = PhotoImage(file="C:/Users/lahas/.vscode/Python/proj_img/pause button.png")
-Button_Pause = Button_Pause.subsample(7)  # Reduce the button size
+Button_Pause = Button_Pause.subsample(7)  
 Button(root, image=Button_Pause, bg="#0f1a2b", bd=0, command=mixer.music.pause).place(x=200, y=500)
 
 # music
